@@ -7,7 +7,7 @@ name: Minha Primeira Linha de Montagem
        build-e-teste:
           runs-on: ubuntu-latest
 
-   steps:
+          steps:
              - name: 1. Pegar o chassi do carro (código-fonte)
                uses: actions/checkout@v3
              - name: 2. Estação de Build (Montagem)
